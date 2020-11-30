@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 description: Synthetix Rates API
-repository: https://github.com/Synthetixio/synthetix-subgraph
+repository: https://github.com/PhoenixGlobal/horizon-subgraph
 schema:
   file: ./synthetix-rates.graphql
 dataSources:

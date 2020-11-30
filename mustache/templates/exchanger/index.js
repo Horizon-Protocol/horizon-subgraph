@@ -1,4 +1,4 @@
 module.exports = {
-  description: 'Synthetix Exchanger API',
+  description: 'Horizon Exchanger API',
   schemaFile: './synthetix-exchanger.graphql',
 };

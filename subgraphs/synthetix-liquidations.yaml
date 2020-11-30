@@ -1,6 +1,6 @@
 specVersion: 0.0.2
-description: Synthetix API
-repository: https://github.com/Synthetixio/synthetix-subgraph
+description: Horizon API
+repository: https://github.com/PhoenixGlobal/horizon-subgraph
 schema:
   file: ./synthetix-liquidations.graphql
 dataSources:

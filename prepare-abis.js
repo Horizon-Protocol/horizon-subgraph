@@ -5,11 +5,11 @@ const fs = require('fs');
 const path = require('path');
 const { gray, yellow } = require('chalk');
 const program = require('commander');
-const snx = require('synthetix');
+const hzn = require('@phoenix-global/horizon');
 
 program.action(async () => {
   const abiPath = path.join(__dirname, 'abis');
-  const sources = snx.getSource({ network: 'mainnet' });
+  const sources = hzn.getSource({ network: 'mainnet' });
 
   const doesEntryHaveMultidimensionalArrays = ({ type }) => /\[[0-9]*\]\[[0-9]*\]/.test(type);
 

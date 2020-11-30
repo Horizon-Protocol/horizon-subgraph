@@ -1,6 +1,6 @@
 specVersion: 0.0.2
-description: Synthetix Exchanger API
-repository: https://github.com/Synthetixio/synthetix-subgraph
+description: Horizon Exchanger API
+repository: https://github.com/PhoenixGlobal/horizon-subgraph
 schema:
   file: ./synthetix-exchanger.graphql
 dataSources:

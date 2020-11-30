@@ -1,6 +1,6 @@
 specVersion: 0.0.2
-description: Synthetix GrantsDAO API
-repository: https://github.com/Synthetixio/synthetix-subgraph
+description: Horizon GrantsDAO API
+repository: https://github.com/PhoenixGlobal/horizon-subgraph
 schema:
   file: ./synthetix-grantsdao.graphql
 dataSources:
