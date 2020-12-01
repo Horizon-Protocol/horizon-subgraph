@@ -8,7 +8,7 @@ dataSources:
     name: Synthetix4_viaOldProxy
     network: mainnet
     source:
-      address: '0xc011a72400e58ecd99ee497cf89e3775d4bd732f' # old ProxySynthetix
+      address: '0x224aa4af8dd57fc0fafb1e94922f54ac3934c445' # old ProxySynthetix
       abi: Synthetix4
       startBlock: 6841188 # Synthetix v2.0.0 0x4b5864b1e4fdfe0ab9798de27aef460b124e9039a96d474ed62bd483e10c835a
     mapping:
@@ -29,7 +29,7 @@ dataSources:
     name: Synthetix_viaOldProxy
     network: mainnet
     source:
-      address: '0xc011a72400e58ecd99ee497cf89e3775d4bd732f' # old ProxySynthetix
+      address: '0x224aa4af8dd57fc0fafb1e94922f54ac3934c445' # old ProxySynthetix
       abi: Synthetix
       startBlock: 8622911 # Synthetix v2.10.x Vega
     mapping:

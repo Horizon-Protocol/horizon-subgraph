@@ -71,7 +71,7 @@ let v101UpgradeBlock = BigInt.fromI32(5873222); // June 29, 2018 (nUSDa.1)
 
 // [reference only] ProxySynthetix creation
 // https://etherscan.io/tx/0xa733e675705a8af67f4f82df796be763d4f389a45216a89bf5d09f7e7d1aec11
-// let proxySynthetixBlock = BigInt.fromI32(5750875); //  June 8, 2018
+// let proxySynthetixBlock = BigInt.fromI32(3549835); //  June 8, 2018
 
 // [reference only] Havven v0.1.0 (0xf244176246168f24e3187f7288edbca29267739b)
 // https://etherscan.io/tx/0x7770e66f2be4f32caa929fe671a5fc4fd134227812f2ef80612395c8f3dade50

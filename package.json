@@ -34,7 +34,7 @@
     "build:exchanger": "graph build subgraphs/synthetix-exchanger.yaml",
     "build:grantsdao": "graph build subgraphs/synthetix-grantsdao.yaml",
     "build:liquidations": "graph build subgraphs/synthetix-liquidations.yaml",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/",
+    "deploy": "graph deploy --node http://192.168.1.103:8020/ --ipfs http://192.168.1.103:5001",
     "deploy:hzn": "npm run deploy -- subgraphs/synthetix.yaml",
     "deploy:rates": "npm run deploy ---rates subgraphs/synthetix-rates.yaml",
     "deploy:depot": "npm run deploy ---depot subgraphs/synthetix-depot.yaml",
@@ -45,9 +45,9 @@
     "deploy:exchanger": "npm run deploy ---exchanger subgraphs/synthetix-exchanger.yaml",
     "deploy:grantsdao": "npm run deploy ---grantsdao subgraphs/synthetix-grantsdao.yaml",
     "deploy:liquidations": "npm run deploy ---liquidations subgraphs/synthetix-liquidations.yaml",
-    "create-local": "graph create --node http://localhost:8020/",
-    "remove-local": "graph remove --node http://localhost:8020/",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001"
+    "create-local": "graph create --node http://192.168.1.103:8020/ horizon/horizon-subgraph subgraphs/synthetix.yaml",
+    "remove-local": "graph remove --node http://192.168.1.103:8020/ horizon/horizon-subgraph subgraphs/synthetix.yaml",
+    "deploy-local": "graph deploy --node http://192.168.1.103:8020/ --ipfs http://192.168.1.103:5001 horizon/horizon-subgraph subgraphs/synthetix.yaml"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "git://github.com/graphprotocol/graph-cli.git#ebeeba0009f026bacf940f25ee7b875fe7676032",
